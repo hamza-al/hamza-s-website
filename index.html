@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <title>Hamza's website</title>
+</head>
+<body>
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <div class="parent">
+
+        <ul id='navbar' class="list-group">
+            <li class="active"><a href="#home" class="navbar">Home</a></li>
+            <li><a href="#about" class="navbar">About</a></li>
+            <li><a href="#contact" >Projects</a></li>
+            <li><a href="#about" class="navbar">Contact</a></li>
+          </ul>
+          <script type='text/javascript'>
+          $(document).on('click', 'ul li', function(){
+            $(this).addClass('active').siblings().removeClass('active')
+          })
+          </script>
+
+    <div class='top child' id=home>
+        <div class ='name'> Hamza Al Sorkhy</div>
+        <div class="descriptions"> Computer Science Student</div>
+        <div class="sm">
+           <a href="https://github.com/hamza-al"> <i class="fab fa-github"></i></a>
+           <a href="https://www.linkedin.com/in/hamza-al-sorkhy-7024021b9/"> <i class="fab fa-linkedin-in"></i></a>
+           <a href="mailto: alsorkhh@mcmaster.ca"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    <div class='about child' id='about'>
+        <h1>About</h1>
+       <div class="intro"> About me </div>
+       <div class="info"> I'm a McMaster University computer science undergraduate. <br>
+                          I'm interested in many fields of computer science, <br> 
+                          primarily in creating software that is very user friendly; <br>
+                          I believe user satisfaction is the be-all-end-all in the success of any product. <br>
+        <div class='skill'> skills</div>
+        <div class='skills'> I am a fast learner with an aptitude for picking up new skills and programming<br>
+                             languages quickly and with minimal to no comprimises in quality. <br>
+                             I excel at looking at problems from a logical and analyitcal point of view, and work both <br>
+                             calmly and efficiently on tight deadlines. I am also proficient and making use of external <br>
+                             resources in case I am having trouble solving a problem, or struggling to use whatever technologies <br>
+                             I'm using.
+        </div>
+        <div class="lang">MS Suite</div>
+        <div class="w3-grey w3-round-xlarge">
+            <div class="w3-container w3-light-grey w3-round-xlarge" style="width:95%">95%</div>
+          </div>
+
+        <div class="lang">Python</div>
+        <div class="w3-grey w3-round-xlarge">
+            <div class="w3-container w3-light-grey w3-round-xlarge" style="width:85%">85%</div>
+          </div>
+          <div class="lang">SQL</div>
+          <div class="w3-grey w3-round-xlarge">
+              <div class="w3-container w3-light-grey w3-round-xlarge" style="width:60%">60%</div>
+            </div>
+          <div class="lang">HTML/CSS</div>
+          <div class="w3-grey w3-round-xlarge">
+              <div class="w3-container w3-light-grey w3-round-xlarge" style="width:75%">75%</div>
+            </div>
+        
+            <div class="lang">JavaScript</div>
+            <div class="w3-grey w3-round-xlarge">
+                <div class="w3-container w3-light-grey w3-round-xlarge" style="width:65%">65%</div>
+              </div>
+      </div>
+        <div class="pic">
+            <img src="pic.jpeg" alt="">
+        </div>
+         </div>
+         <div class='projects'>
+          <div class='skill'> skills</div>
+          <div class="info"> I'm a McMaster University computer science undergraduate. <br>
+            I'm interested in many fields of computer science, <br> 
+            primarily in creating software that is very user friendly; <br>
+            I believe user satisfaction is the be-all-end-all in the success of any product. <br>
+         </div>
+
+    </div>
+    </div>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyArebmK6ctSYJk00Qn7bLr3i8Hv_Ew_J_w",
+    authDomain: "hamza-s-website.firebaseapp.com",
+    projectId: "hamza-s-website",
+    storageBucket: "hamza-s-website.appspot.com",
+    messagingSenderId: "825030303151",
+    appId: "1:825030303151:web:1f3f8a34dd3b7c055f635a",
+    measurementId: "G-0C3NJPVK74"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
