@@ -20,8 +20,8 @@ body {
 }
 h1{
   padding-top: 40px;
-  color: white;
-  font-family: 'Playfair Display', serif;
+  color: orangered;
+  font-family: 'Poppins', sans-serif;
 }
 .parent{
   background: url(home_back.jpg) no-repeat center center fixed;
@@ -154,6 +154,7 @@ ul li.active a{
   border-radius: 50% ;
   float: right;
   margin-right: 100px;
+
 }
 
 i {
@@ -169,7 +170,7 @@ i:hover{
 }
 
 .projects {
-  height: 1000px;
+  height: 850px;
   background-color:#3a494c;
 }
 img {
@@ -179,3 +180,72 @@ img {
   height: 300px;
   width: 300px;
 }
+
+.skill_proj {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  color: orangered;
+  padding-top: 30px;
+}
+
+.proj_name {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: none;
+  padding-top: 10px;
+  color: orangered;
+  float: center;
+
+}
+
+.proj {
+  font-size: 14px;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+}
+
+.skill2 {
+
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  color: orangered;
+  padding-top: 400px;
+  display: block;
+}
+
+
+.contact {
+  height: 300px;
+  background-color: teal;
+}
+
+.arrow {
+  padding-top: 40px;
+
+  float: center;
+}
+
+.mailink {
+  color: black;
+  float: Center;
+
+}
+
+.sendh {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  float: center;
+  padding-top: 10px;
+
+  font-size: 22px;
+}
+
+.divide {
+  padding-top: 0;
+  font-size: 50px;
+  margin-left: 17% ;
+  float: left;
+  color: black;
+}
+
