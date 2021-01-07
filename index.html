@@ -21,7 +21,7 @@
         <ul id='navbar' class="list-group">
             <li class="active"><a href="#home" class="navbar">Home</a></li>
             <li><a href="#about" class="navbar">About</a></li>
-            <li><a href="#contact" >Projects</a></li>
+            <li><a href="#projects" >Projects</a></li>
             <li><a href="#about" class="navbar">Contact</a></li>
           </ul>
           <script type='text/javascript'>
@@ -40,7 +40,7 @@
         </div>
     </div>
     <div class='about child' id='about'>
-        <h1>About</h1>
+        <h1 class='headone'>About</h1>
        <div class="intro"> About me </div>
        <div class="info"> I'm a McMaster University computer science undergraduate. <br>
                           I'm interested in many fields of computer science, <br> 
@@ -77,18 +77,48 @@
                 <div class="w3-container w3-light-grey w3-round-xlarge" style="width:65%">65%</div>
               </div>
       </div>
+
         <div class="pic">
             <img src="pic.jpeg" alt="">
         </div>
+
+
+
          </div>
-         <div class='projects'>
-          <div class='skill'> skills</div>
-          <div class="info"> I'm a McMaster University computer science undergraduate. <br>
-            I'm interested in many fields of computer science, <br> 
-            primarily in creating software that is very user friendly; <br>
-            I believe user satisfaction is the be-all-end-all in the success of any product. <br>
+         <div class='projects' id=projects>
+          <div class='skill_proj'> Projects</div>
+          <div class="info"> <div class="proj_name"> •	Weather app (Fall 2020)</div> 
+            <div class="proj"> Created a python application with a GUI that uses an API to find the weather of the city specified by the user. <br> 
+                              The GUI was made using Tkinter.</div> <br>
+            <div class='proj_name'>•	Amazon web scraper (Fall 2020)</div>
+            <div class="proj"> Created a python application that uses Selenium web drivers as well as Beautiful Soup to search Amazon <br> 
+            for any given product and return a csv containing the first 20 pages of listings of said products, <br>
+             along with the listing’s rating, price, description, number of reviews on the listing, and a link that leads to the listing’s webpage. <br> <br>
+            </div>
+            <div class="proj_name"> •	Street camera software (Fall 2020) </div>
+            <div class="proj"> Created a python application where a video is selected with the application’s GUI, <br>
+             and the selected video is then played back with red and blue rectangles <br>
+              identifying the cars and pedestrians respectively using the opencv2 module. <br> <br>
+            </div>
+            <div class='proj_name'> •	Discord bot (Fall 2020) </div>
+            <div class="proj"> Created a discord bot using python and a MySQL database that gives users XP based on how many messages they send <br>
+             to the ‘general’ text channel on the server. The users are put into levels based on how much XP they have.
+            </div>
+            <div class='proj_name'> •	Personal website (Winter 2020/2021) </div>
+            <div class="proj"> Created a personal website using mainly HTML and CSS, with very minor JavaScript to animate the color change in the navigation bar. <br>
+                               It contains contains a summary of my projects and skill set, along with my contact info (all of which you already know considering you're reading this on it *^_^*)
+            </div>
          </div>
 
+    </div>
+    <div class="contact child" id=contact>
+      <div class="email">
+        <i class="fas fa-phone arrow"></i> 
+        <p class="sendh"> Find me Here</p>
+        <a href="mailto: alsorkhh@mcmaster.ca" class = mailink> alsorkhh@mcmaster.ca</a> <br>
+        <a href="tel: +12896597818" class = mailink> +1 (289) 659 7818</a>
+      </div>
+       
     </div>
     </div>
 
